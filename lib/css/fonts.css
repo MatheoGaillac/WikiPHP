@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Belleza';
+	src: url('../fonts/Belleza-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Cinzel';
+	src: url('../fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Quiche';
+	src: url('../fonts/quiche-display-regular.ttf') format('truetype');
+}

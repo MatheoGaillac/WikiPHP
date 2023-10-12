@@ -1,0 +1,59 @@
+@import url('fonts.css');
+p {
+	font-family: 'Belleza', sans-serif;
+	color: white;
+}
+body {
+	background-image: url("../../images/montFujiIndex.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.mainInfo {
+	font-size: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d4f1f4c2;
+	border-radius: 30px;
+	cursor: default;
+	height: 80px;
+	width: 170px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.botInfo {
+	position: fixed;
+	bottom: 5%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.6rem;
+}
+.botInfo p {
+	font-family: 'Cinzel', sans-serif;
+	background-color: #75e6dbcb;
+	padding: 5px 20px;
+	border-radius: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+@media (max-width: 1500px) {
+	.mainInfo {
+		font-size: 4rem;
+		height: 120px;
+		width: 250px;
+		border-radius: 50px;
+	}
+	.botInfo {
+		font-size: 2rem;
+	}
+	.botInfo p {
+		padding: 0px 30px;
+		border-radius: 10px;
+	}
+}

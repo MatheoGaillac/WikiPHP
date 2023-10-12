@@ -1,0 +1,173 @@
+@import url('fonts.css');
+body {
+	background-image: url("../../images/paysModele.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.parent-container{
+	margin-top: 6%;
+	margin-left: 8%;
+	margin-right: 8%;
+	position: relative;
+}
+.infoContainer {
+	background-color: #05435eb0;
+	border-radius: 15px;
+	padding-bottom: 1%;
+}
+#img-container{
+	position: relative;
+	width: 26%;
+	display: inline-block;
+	margin-left: 1.5%;
+	margin-top: 1.5%;
+	border-radius: 15px;
+	z-index: 2;
+}
+#bannerInfo {
+    position: relative;
+}
+#overlay {
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    width: 26%;
+    height: 90%;
+    background-color: #75E6DA;
+    z-index: 1;
+	border-radius: 15px;
+}
+#mainTitle{
+	font-family: 'Belleza', sans-serif;
+	color: #75E6DA;
+	font-size: 4em;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.685);
+	margin: 0;
+	width: 50%;
+	position: absolute;
+	top: 5%;
+	left: 30%;
+}
+#infoPays{
+	margin-bottom: 3%;
+}
+#infoPaysLeft {
+    position: absolute;
+    top: 13%;
+    left: 30.5%;
+    width: 60%;
+}
+#infoPaysRight{
+	position: absolute;
+	top: 13%;
+	left: 58%;
+    width: 45%;
+}
+.titleInfo{
+	font-family: 'Cinzel', sans-serif;
+	color: #D4F1F4;
+	font-size: 1.2em;
+	width: 80%;
+	margin-bottom: 0;
+}
+.textDesc{
+	width: 35%;
+}
+.containInfo, .vert, .orange, .rouge{
+	font-family: 'Belleza', sans-serif;
+	color: white;
+	text-align:justify;
+	margin: 0;
+}
+#descPaysImg{
+	font-family: 'Belleza', sans-serif;
+	color: white;
+	font-size: 0.9em;
+	text-align: justify;
+	width: 25%;
+	margin-left: 1.5%;
+	margin-top: -10px;
+}
+.vert{
+	color: #00BF63;
+}
+.orange{
+	color: #FF914D;
+}
+.rouge{
+	color: #FF3131;
+}
+.columns {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.column {
+    width: 45%;
+}
+.textContent1{
+	background-color: #75e6dbaf;
+}
+.textContent2{
+	background-color: #189AB4af;
+}
+.textContent1 p, .textContent2 p{
+	font-family: 'Belleza', sans-serif;
+	margin-left: 1%;
+}
+.title1{
+	color: #05445E;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.568);
+	font-size: 2em;
+	margin-bottom: 0;
+}
+.mainInfo1{
+	font-size: 1.2em;
+	margin-top: 0.5%;
+	padding-bottom: 1%;
+	margin-bottom: 0;
+}
+.title2{
+	color: #75E6DA;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.568);
+	font-size: 2em;
+	margin-bottom: 0;
+}
+.mainInfo2{
+	color: white;
+	font-size: 1.2em;
+	margin-top: 0.5%;
+	padding-bottom: 1%;
+}
+@media only screen and (max-width: 1200px) {
+	#mainTitle {
+		font-size: 3em;
+		width: 80%;
+		left: 30%;
+		top: 25%;
+	}
+	#infoPaysLeft {
+		position: static;
+		margin-top: 0;
+		margin-bottom: 5%;
+		width: 90%;
+		left: 5%;
+	}
+	#infoPaysRight {
+		position: static;
+		margin-top: 0;
+		margin-bottom: 5%;
+		width: 90%;
+		left: 5%;
+	}
+	.titleInfo {
+		font-size: 1em;
+	}
+	.textDesc {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+}

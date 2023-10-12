@@ -1,0 +1,59 @@
+@import url('fonts.css');
+body{
+	background-image: url("../../images/continentBackground.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.parent-container{
+	margin-top: 8%;
+	margin-left: 15%;
+	margin-right: 15%;
+	position: relative;
+}
+.info-container {
+	background-color: #05445Ebd;
+	border-radius: 15px;
+	padding-bottom: 2%;
+	display: flex;
+	flex-wrap: wrap;
+}
+#img-desc{
+	width: 90%;
+}
+.img-container{
+	width: 40%;
+}
+.desc-container{
+	width: 60%;
+}
+.title-text{
+	position: relative;
+	font-family: 'Cinzel', sans-serif;
+	color: white;
+	font-size: 3em;
+}
+.desc-text{
+	position: relative;
+	background-color: #05445E;
+	border: solid 5px #d4f1f4d5;
+	border-radius: 20px;
+	padding: 2%;
+	width: 70%;
+	font-family: 'Belleza', sans-serif;
+	color: #D4F1F4;
+	font-size: 1em;
+}
+.info-desc{
+	display: flex;
+	justify-content: space-evenly;
+  }
+.info-item {
+	background-color: #75E6DA;
+	color: #05445E;
+	font-size: 1.5em;
+	padding: 2%;
+	border-radius: 15px;
+	margin-bottom: 5%;
+}

@@ -1,0 +1,95 @@
+@import url('fonts.css');
+body {
+	background-image: url("../../images/connexion.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.parent-container{
+    background-color: #75e6dbd5;
+    width: 20%;
+    margin: 15% 40%;
+    position: relative;
+    border-radius: 30px;
+}
+#main-title{
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1.5em;
+    padding-top: 10%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.usernameInput, .passwordInput{
+    position: relative;
+    margin: 0;
+}
+input#username, input#password{
+    font-family: 'Belleza', sans-serif;
+    font-size: 1em;
+    margin: 5% 25%;
+    border: none;
+    background-color: #05435ed0;
+    color: white;
+    padding: 3%;
+    border-radius: 15px;
+    padding-left: 7%;
+    width: 40%;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.829);
+}
+input:focus {
+    outline-color: #189AB4;
+}
+button{
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1em;
+    color: white;
+    background-color: #05435e;
+    padding: 1% 6%;
+    cursor: pointer;
+    margin: 5% 28%;
+    border: none;
+    border-radius: 10px;
+}
+button:active {
+    background-color: #189AB4;
+    color: #eee;
+}
+.user, .password{
+    position: relative;
+}
+.user:before{
+    content: "";
+    position: absolute;
+    left: 26%;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("../../images/user.svg") center / contain no-repeat;
+}
+.password::before{
+    content: "";
+    position: absolute;
+    left: 26%;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("../../images/password.svg") center / contain no-repeat;
+}
+@media screen and (max-width: 1200px) {
+    button {
+        margin: 5% 10%;
+        padding: 1% 4%;
+    }
+    .user::before,
+    .password::before {
+        left: 50px;
+    }
+}
+.error-message p{
+    color: red;
+    font-family: 'Belleza', sans-serif;
+    text-align: center;
+}

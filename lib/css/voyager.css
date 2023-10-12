@@ -1,0 +1,74 @@
+@import url('fonts.css');
+body {
+	margin: 0;
+	padding: 0;
+}
+.image-container {
+	height: 105vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+	position: relative;
+	z-index: 1;
+}
+#image1 {
+	background-image: linear-gradient(to right, #05445E 15%, #05435e80), url("../../images/continent.jpg");
+}
+#image2 {
+	background-image: linear-gradient(to left, #189AB4 10%, #189ab448), url("../../images/pays.jpg");
+}
+#image3 {
+	background-image: linear-gradient(to right, #75E6DA 10%, #75e6db33), url("../../images/lieux.jpg");
+}
+#image4 {
+	background-image: linear-gradient(to left, #D4F1F4 25%, #d4f1f42d), url("../../images/gastronomie.jpg");
+}
+.text-content{
+	font-family: 'Belleza', sans-serif;
+	color: white;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	font-size: 5em;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	text-align: center;
+}
+.right-box{
+	font-family: 'Cinzel', sans-serif;
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
+	position: absolute;
+	bottom: 5%;
+	right: 10%;
+	padding: 0.5% 1.5%;
+	border-radius: 15px;
+}
+.left-box{
+	font-family: 'Cinzel', sans-serif;
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	padding: 0.5% 1.5%;
+	border-radius: 15px;
+}
+#image1 .right-box{
+	background-color: #05445E;
+}
+#image2 .left-box{
+	background-color: #189AB4;
+}
+#image3 .right-box{
+	background-color: #75E6DA;
+}
+#image4 .left-box{
+	background-color: #D4F1F4;
+}
+.dark-text{
+	color: #545454;
+}

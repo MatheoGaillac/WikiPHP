@@ -1,0 +1,102 @@
+@import url('fonts.css');
+body {
+	background-image: url("../../images/contact.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.parent-container{
+	position: relative;
+}
+.left-container, .right-container{
+	background-color: #05435ebe;
+	width: 20%;
+	padding-bottom: 2%;	
+	border-radius: 20px;
+	max-width: 20%;
+}
+.left-container{
+	position: absolute;
+	float: left;
+	margin: 10% 25%;
+}
+.right-container{
+	position: absolute;
+	float: right;
+	margin: 10% 55%;
+}
+.main-title{
+	font-family: 'Cinzel', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+}
+.phone p, .email p, .horaire p{
+	font-family: 'Cinzel', sans-serif;
+	color: white;
+	font-size: 1.2em;
+	margin-left: 10%;
+	margin-bottom: 1%;
+	margin-top: 4%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.phone svg, .email svg{
+	position: relative;
+	width: 10%;
+	padding-left: 2%;
+}
+.phoneNumber, .emailContent, .horaireContent{
+	background-color: #D4F1F4;
+	padding: 3%;
+	width: 60%;
+	margin-top: 0;
+	margin-bottom: 5%;
+	clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 120%, 0 46%, 0% 0%);
+}
+.text-content{
+	font-family: 'Belleza', sans-serif;
+	color: black;
+	font-size: 1em;
+	text-align: center;
+}
+.adresseContent p{
+	font-family: 'Belleza', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+}
+.descAdresse p{
+	font-family: 'Cinzel', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 1.1em;
+	margin-left: 10%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.descAdresse svg{
+	position: relative;
+	width: 10%;
+	padding-left: 2%;
+}
+.mapIframe iframe{
+	position: relative;
+	border-radius: 20px;
+	margin-left: 7%;
+	width: 85%;
+	z-index: 1;
+}
+.overlay {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 85%;
+    height: 55%;
+    background-color: #75E6DA;
+    z-index: 1;
+	border-radius: 15px;
+}

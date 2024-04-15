@@ -1,3 +1,3 @@
 <?php
-$baseURL = "http://localhost/Voyage";
+$baseURL = "http://localhost/ProjetWikiDynamique";
 ?>
